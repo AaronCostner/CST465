@@ -54,11 +54,14 @@ padding: 5px;
 <h2>My Fall Term 2015 Classes</h2>
 
 <table style="width:100%">
+<thead>
   <tr>
     <th>Course Prefix</th>
     <th>Course Number</th>		
     <th>Course Description</th>
   </tr>
+</thead>
+<tbody>
   <tr>
     <td>CST</td>
     <td>465</td>		
@@ -84,6 +87,8 @@ padding: 5px;
     <td>304</td>		
     <td>Engineering Management</td>
   </tr>
+</tbody>
+
 </table>
 
 <h2>Biography</h2>
@@ -102,22 +107,28 @@ I have 1 brother whose name is Tyler Costner. He is currently going to Roseburg 
 
 <legend>For More Information</legend>
 
-Email Address:<br>
-<input type="text" name="emailaddress">
+<label for="email">Email Address:</label>
 <br>
-Specific Area of Interest:<br>
-<textarea rows="4" cols="50">
+
+<input type="text" name="emailaddress" id="email">
+<br>
+
+<label for="interest">Specific Area of Interest:</label>
+<br>
+
+<textarea rows="4" cols="50" id="interest">
 </textarea>
 <br>
-Type of User:
+
+<label for="user">Type of User:</label>
 <br>
-<select>
+
+<select id="user">
 <option value="facultystaff">Faculty/Staff</option>
 <option value="student">Student</option>
 </select>
 <br>
-Submit:
-<br>
+
 <input type="submit" value="Submit">
 
 </fieldset>
