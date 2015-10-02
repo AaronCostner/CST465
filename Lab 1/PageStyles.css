@@ -1,0 +1,28 @@
+body {
+	background-color: orange;
+}
+
+.center {
+	text-align: center;
+}
+
+h2 {
+	color: blue;
+}
+
+#hobbies {
+	background-color: yellow;
+}
+
+h1 {
+	font-size: 250%;
+}
+
+p {
+	font-weight: bold;
+	font-family: "Comic Sans MS", Sans-Serif;
+}
+
+#bands {
+	text-decoration: underline;
+}
